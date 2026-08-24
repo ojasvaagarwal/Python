@@ -1,4 +1,4 @@
-a=3
-print(type(a))
-a=str(a)
-print(type(a))
+value=3
+print(type(value))
+value=str(value)
+print(type(value))
