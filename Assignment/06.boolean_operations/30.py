@@ -1,0 +1,12 @@
+a=0
+b=1
+c=""
+d="Python"
+e=False
+f=None
+print(type(a),bool(a))
+print(type(b),bool(b))
+print(type(c),bool(c))
+print(type(d),bool(d))
+print(type(e),bool(e))
+print(type(f),bool(f))
