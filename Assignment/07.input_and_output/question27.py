@@ -1,0 +1,5 @@
+num1=int(input("enter num 1 :"))
+num2=int(input("enter num 2 :"))
+print(f"First number: {num1}")
+print(f"Second number: {num2}")
+print(f"Sum: {num1+num2}")

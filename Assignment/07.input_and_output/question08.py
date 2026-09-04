@@ -1,0 +1,1 @@
+name1,name2=input("Enter both names : ").split()
