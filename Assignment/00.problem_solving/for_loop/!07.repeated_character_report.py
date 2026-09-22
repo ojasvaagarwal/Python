@@ -6,7 +6,6 @@ for i in s:
         count+=1
     else:
         char.append(i)
-
     if count == 2:
         print(f"in {s}, {i} is duplicate")
     elif count == 3 or count == 4:

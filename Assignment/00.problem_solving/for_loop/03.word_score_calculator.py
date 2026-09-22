@@ -1,6 +1,5 @@
 s = input("Enter a sentence : ").split()
 high_s = 0
-word = ""
 for i in s:
     score = 0
     for j in i:
