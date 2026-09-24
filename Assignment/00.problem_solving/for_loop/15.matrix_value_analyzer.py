@@ -7,9 +7,9 @@ largest_number = 0
 highest = -9223372036854775808
 matrix = ""
 
-for i in range(3):
+for i in range(1,4):
     matrix_row = ""
-    for j in range(3):
+    for j in range(1,4):
         aij = int(input(f"Enter number for m = {i} and n = {j} in given empty matrix: "))
         if aij%2 == 0:
             even_count+=1
