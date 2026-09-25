@@ -1,8 +1,8 @@
 s = input("Enter a sentence : ")
+d=atr=0
 for i in s:
-    for j in i:
-        if j >= chr(48) and j <= chr(57):
-            digit = True
-        elif j == "@":
-            digit = True
-        
+    if i >= chr(48) and i <= chr(57):
+        digit += 0
+    elif i == "@":
+        atr+=1
+    

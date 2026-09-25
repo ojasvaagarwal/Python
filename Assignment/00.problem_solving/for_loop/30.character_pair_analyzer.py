@@ -5,13 +5,13 @@ for i in range(len(s)):
         if i!=j:
             if s[i] == s[j]:
                 sc+=1
-            elif s[i] in "aeiouAEIOU" and s[j] in "aeiouAEIOU":
-                bv+=1
-            elif s[i] in "0123654789" and s[j] in "0123654789":
-                bd+=1
-            elif s[i] != s[j]:
+            else :
                 dc+=1
-    
+            if s[i] in "aeiouAEIOU" and s[j] in "aeiouAEIOU":
+                bv+=1
+            if s[i] in "0123654789" and s[j] in "0123654789":
+                bd+=1
+
 print(f"""
 Same characters : {sc}
 Different characters : {dc}
