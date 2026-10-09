@@ -9,8 +9,8 @@ while i!=1:
     match choice:
         case 0:
             i=1
-        case x if x in range(1,len(menu)):
-            choices.append(menu[x])
+        case x if x in range(1,len(menu)+1):
+            choices.append(menu[x-1])
         case _:
             print("Invalid Menu Choice")
 print(f"You selected {" ".join(choices)}")
