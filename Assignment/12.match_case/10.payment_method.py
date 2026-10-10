@@ -1,4 +1,4 @@
-n = int(input("""upi
+n = input("""upi
 card
 cash
 wallet

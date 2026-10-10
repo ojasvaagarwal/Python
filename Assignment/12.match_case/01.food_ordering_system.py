@@ -13,4 +13,4 @@ while i!=1:
             choices.append(menu[x-1])
         case _:
             print("Invalid Menu Choice")
-print(f"You selected {" ".join(choices)}")
+print("You selected " + " ".join(choices))

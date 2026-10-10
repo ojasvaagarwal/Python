@@ -1,4 +1,4 @@
-n = int(input("""pdf
+n = input("""pdf
 jpg
 png
 mp3

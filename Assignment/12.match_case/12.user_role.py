@@ -1,8 +1,8 @@
-n = int(input("""admin
+n = input("""admin
 teacher
 student
 guest
-Enter extension:"""))
+Enter extension:""")
 match n:
     case "admin":
         print("Full Access")

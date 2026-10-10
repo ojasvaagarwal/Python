@@ -1,13 +1,10 @@
-n = int(input("""1 → Green
-2 → Yellow
-3 -> Red
-Enter signal: """))
+n = input("Enter signal (red/yellow/green): ").strip().lower()
 match n:
-    case 1:
-        print("Go")
-    case 2:
-        print("Wait")
-    case 3:
+    case "red":
         print("Stop")
+    case "yellow":
+        print("Wait")
+    case "green":
+        print("Go")
     case _:
         print("Invalid Signal")

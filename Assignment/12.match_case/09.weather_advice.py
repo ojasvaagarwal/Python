@@ -1,4 +1,4 @@
-n = int(input("""sunny
+n = input("""sunny
 rainy
 cloudy
 snowy
