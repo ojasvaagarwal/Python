@@ -7,7 +7,7 @@ match n:
     case _: account = ""
 if account:
     print(f"{account} Account")
-    amount = float(input("Enter amount: "))
+    amount = int(input("Enter amount: "))
     if amount > 0:
         print("Withdrawal Request Accepted")
     else:

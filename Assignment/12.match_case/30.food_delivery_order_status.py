@@ -1,4 +1,10 @@
-status = input("Enter status: ").strip().lower()
+status = input("""placed
+confirmed
+preparing
+out_for_delivery
+delivered
+cancelled
+Enter status: """).strip().lower()
 match status:
     case "placed": print("Your order has been placed")
     case "confirmed": print("Your order is confirmed")
