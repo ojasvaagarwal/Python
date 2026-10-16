@@ -1,18 +1,22 @@
-s = input("Enter a string to check (single string only) : ")
-count = 0
-for i in s:
-    print(f"charater {i}",end=" ")
-    count+=1
-    print(f"have position {count}",end=" ")
-    if count%2 == 0:
+s = input("Enter a string to check (single string only) : ").strip()
+v = d = sc = c = 0
+for i in range(len(s)):
+    print(f"charater {s[i]}",end=" ")
+    print(f"have position {i}",end=" ")
+    if i%2 == 0:
         print("and even",end=" ")
     else:
         print("and odd",end=" ")
-    if i in "aeiouAEIOU":
+    if s[i] in "aeiouAEIOU":
         print("and is vowel")
-    elif i in "qwrtypsdfghijklzxcvbnmQWRTYPLKIHGFDSJZXCVBNM":
+        v+=1
+    elif s[i] in "qwrtypsdfghijklzxcvbnmQWRTYPLKIHGFDSJZXCVBNM":
         print("and is consonent")
-    elif i >= chr(48) and i <= chr(57):
+        c+=1
+    elif s[i] >= chr(48) and s[i] <= chr(57):
         print("and is digit")
+        d+=1
     else:
         print("and is special character")
+        sc+=1
+print(f"Vowel: {v} ; Cosonent: {c} ; Digit: {d} ; Special Character: {sc}")
