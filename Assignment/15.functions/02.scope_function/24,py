@@ -1,0 +1,3 @@
+def apply_discount(price, discount=0):
+    return price-(price/100*discount)
+print(apply_discount(499,50))
