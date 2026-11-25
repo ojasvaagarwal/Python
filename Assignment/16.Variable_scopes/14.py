@@ -1,10 +1,12 @@
-def make_multiplier(factor):
-    def multiply(number):
-        return number*factor
+def multi(a):
+    def multiply(n):
+        return n*a
     return multiply
-double=make_multiplier(2)
-print(double(5))
+x2=multi(2)
+x3=multi(3)
+print(x2(5))
+print(x3(5))
 
 # Explanation:
-# The variable factor from make_multiplier remains available inside multiply even after make_multiplier finishes running.
-# This happens because multiply is a closure: it remembers the enclosing scope variable (factor) that it references.
+# The variable a from multi remains available inside multiply even after multi finishes running.
+# This happens because multiply is a closure: it remembers the enclosing scope variable (a) that it references.

@@ -1,6 +1,6 @@
-def outer_message():
-    message="hello from outer"
-    def inner_message():
+def out():
+    message="hello"
+    def inn():
         print(message)
-    inner_message()
-outer_message()
+    inn()
+out()

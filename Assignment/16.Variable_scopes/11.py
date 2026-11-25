@@ -1,11 +1,11 @@
 def make_counter():
     count=0
-    def counter():
+    def inc():
         nonlocal count
         count+=1
         return count
-    return counter
-count_up=make_counter()
-print(count_up())
-print(count_up())
-print(count_up())
+    return inc
+counter=make_counter()
+print(counter())
+print(counter())
+print(counter())
