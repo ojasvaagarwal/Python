@@ -6,4 +6,4 @@ def answer(n):
 
 print(answer(3))
 
-# Here a RecursionError rises because of wrong conditions.
+# Here a Typeerror rise.
