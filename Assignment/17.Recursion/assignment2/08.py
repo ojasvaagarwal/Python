@@ -1,6 +1,5 @@
 def d2b(n):
-    if n==0:return "0"
-    if n==1:return "1"
+    if n==0 or n==1:return f"{n}"
     k = "1" if n%2 else "0"
     return d2b(n//2) + k
 
